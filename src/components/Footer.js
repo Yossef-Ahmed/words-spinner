@@ -9,13 +9,13 @@ export class Footer extends Component {
                 <div className="footer__copyright">Designed &amp; Developed by Youssef Ahmed 2021</div>
                 <ul className="footer__links">
                     <li className="footer__link">
-                        <a href="#" target="_blank">
+                        <a href="https://youssef-ahmed.herokuapp.com/" target="_blank">
                             <span className="footer__link__text">Portfolio</span>
                             <img className="footer__link__logo" src={PortfolioLogo} alt="Portfolio Logo"/>
                         </a>
                     </li>
                     <li className="footer__link">
-                        <a href="#" target="_blank">
+                        <a href="https://github.com/Yossef-Ahmed/words-spinner/" target="_blank">
                             <span className="footer__link__text">Code</span>
                             <img className="footer__link__logo" src={GitHubLogo} alt="GitHub Logo"/>
                         </a>
