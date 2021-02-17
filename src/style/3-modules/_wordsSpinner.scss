@@ -8,8 +8,35 @@
         background-color: #fbfbfb;
         outline: 0;
     }
-    &__result {
-        width: 360px;
+    &__results {
+        max-width: 360px;
         color: #99999b;
+        overflow-wrap: break-word;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .words-spinner {
+        &__textarea {
+            width: 320px;
+            margin-right: 55px;
+        }
+        &__results {
+            max-width: 285px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .words-spinner {
+        &__textarea {
+            width: 100%;
+            margin: unset;
+            margin-bottom: 31px;
+        }
+        &__results {
+            max-width: 100%;
+            text-align: center;
+        }
     }
 }

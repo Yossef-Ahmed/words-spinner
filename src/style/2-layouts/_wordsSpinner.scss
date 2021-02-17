@@ -3,3 +3,22 @@
     display: flex;
     justify-content: center;
 }
+
+@media only screen and (max-width: 1024px) {
+    .words-spinner {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .words-spinner {
+        flex-direction: column;
+        padding: 15px 58px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .words-spinner {
+        padding: 5px 30px;
+    }
+}
