@@ -16,10 +16,8 @@ export class WordsSpinner extends Component {
     render() {
         return (
             <section className="words-spinner">
-                <form>
-                    <textarea className="words-spinner__textarea" onChange={this.changeResultWords} name="words" cols="30" rows="10"></textarea>
-                </form>
-                <div className="words-spinner__results">{this.state.resultWords}</div>
+                <textarea className="words-spinner__textarea" onChange={this.changeResultWords} placeholder="Type anything..." name="words" cols="30" rows="10"></textarea>
+                <div className="words-spinner__results">{this.state.resultWords ? this.state.resultWords : "Here we will display everything you type..."}</div>
             </section>
         )
     }
