@@ -6,10 +6,13 @@
         color: #007bff;
         text-transform: uppercase;
         font-weight: 700;
-        margin: 0 15px;
+        margin-right: 0 25px;
         transition: .2s ease-in-out;
         &:hover {
             opacity: .5;
+        }
+        &:last-child {
+            margin: unset;
         }
     }
     &__text {
