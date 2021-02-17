@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import GitHubLogo from "../images/Footer Logos/github.svg"
+import PortfolioLogo from "../images/Footer Logos/portfolio.png"
 
 export class Footer extends Component {
     render() {
@@ -10,7 +11,7 @@ export class Footer extends Component {
                     <li className="footer__link">
                         <a href="#" target="_blank">
                             <span className="footer__link__text">Portfolio</span>
-                            {/* <img className="footer__link__logo" src={LinkedInLogo} alt="Portfolio Logo"/> */}
+                            <img className="footer__link__logo" src={PortfolioLogo} alt="Portfolio Logo"/>
                         </a>
                     </li>
                     <li className="footer__link">
