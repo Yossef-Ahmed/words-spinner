@@ -1,0 +1,15 @@
+.words-spinner {
+    &__textarea {
+        width: 500px;
+        margin-right: 67px;
+        border-color: #37383c;
+        padding: 15px 20px;
+        border-radius: 15px;
+        background-color: #fbfbfb;
+        outline: 0;
+    }
+    &__result {
+        width: 360px;
+        color: #99999b;
+    }
+}
