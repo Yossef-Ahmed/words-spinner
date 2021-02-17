@@ -1,0 +1,12 @@
+.header {
+    &__icon {
+        margin-right: 20px;
+    }
+    &__title,
+    &__icon {
+        font-size: 2.5rem;
+    }
+    &__description {
+        color: #99999b;
+    }
+}
