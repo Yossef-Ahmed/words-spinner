@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/words-spinner/static/css/main.f066c4e3.chunk.css",
+    "main.js": "/words-spinner/static/js/main.265296aa.chunk.js",
+    "main.js.map": "/words-spinner/static/js/main.265296aa.chunk.js.map",
+    "runtime-main.js": "/words-spinner/static/js/runtime-main.55889279.js",
+    "runtime-main.js.map": "/words-spinner/static/js/runtime-main.55889279.js.map",
+    "static/js/2.c433fe7d.chunk.js": "/words-spinner/static/js/2.c433fe7d.chunk.js",
+    "static/js/2.c433fe7d.chunk.js.map": "/words-spinner/static/js/2.c433fe7d.chunk.js.map",
+    "index.html": "/words-spinner/index.html",
+    "static/css/main.f066c4e3.chunk.css.map": "/words-spinner/static/css/main.f066c4e3.chunk.css.map",
+    "static/js/2.c433fe7d.chunk.js.LICENSE.txt": "/words-spinner/static/js/2.c433fe7d.chunk.js.LICENSE.txt",
+    "static/media/github.0561db14.svg": "/words-spinner/static/media/github.0561db14.svg",
+    "static/media/portfolio.27a21adb.png": "/words-spinner/static/media/portfolio.27a21adb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55889279.js",
+    "static/js/2.c433fe7d.chunk.js",
+    "static/css/main.f066c4e3.chunk.css",
+    "static/js/main.265296aa.chunk.js"
+  ]
+}
