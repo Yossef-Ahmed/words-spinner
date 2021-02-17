@@ -1,0 +1,15 @@
+// 0- Vendors Files
+// @import "0-vendors/fontawesome.min.css";
+
+// 1- BASE FILES
+@import "1-base/base";
+
+// 2- LAYOUTS FILES
+@import "2-layouts/appClass";
+@import "2-layouts/container";
+@import "2-layouts/header";
+@import "2-layouts/footer";
+
+// 3- MODULES FILES
+@import "3-modules/footerCopyright";
+@import "3-modules/footerLinks";
